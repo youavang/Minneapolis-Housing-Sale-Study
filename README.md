@@ -1,2 +1,5 @@
-# Minneapolis-Housing-Sale-Study
-Minneapolis housing sale study with ML.
+## Minneapolis Housing Sale Study
+ 
+Determining the value of a home, and the correct listing price is essential in real estate processes. With the use of machine learning methods, this study was conducted on the Minneapolis single-family home housing market.  Regression models were built to accurately find the sale price of single-family homes sold in 2019. The champion regression model in this study was a tie between the lasso and elastic net regression models. Both models predict the sale price with an accuracy of 83.55%. Classification models were built with the goal of determining if a homeowner should sell their home or not. This model was built to only consider selling if the sales price is higher than the assessed value plus closing costs. The champion classification model in this study is the random forest classifier using GridSearch. This model predicted if a home should be sold, or if the sale price is higher than the assessed value plus closing costs, with an accuracy of 62.19%.
+
+You can read more about this study here: [Minneapolis Housing Sale Study](https://github.com/youavang/Minneapolis-Housing-Sale-Study/blob/main/MinneapolisHousingSaleStudy.pdf)
